@@ -56,6 +56,13 @@ function readFileAsync() {
 		});
 	});
 }
+// readFileAsync()
+// 	.then(function (x) {
+// 		console.log("file has been read " + x);
+// 	})
+// 	.catch(function (e) {
+// 		console.log(e);
+// 	});
 async function readFile() {
 	try {
 		const data = await readFileAsync();
